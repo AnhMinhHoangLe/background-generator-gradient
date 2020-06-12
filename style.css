@@ -1,23 +1,70 @@
-body{
-        font: 'Raleway', san-serif; 
-        color: rgba(0,0,0,0.5); 
-        text-transform: uppercase;
-        letter-spacing: 0.5em;
-        top: 15%; 
-        background: linear-gradient(to right, red, yellow); 
-        text-align: center;
+body {
+  font: "Raleway", san-serif;
+  color: hsl(0, 5%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  background: linear-gradient(to right, red, yellow);
+  text-align: center;
 }
-h1{
-        font: 600 3.5em 'Raleway', san-serif;
-        color: rgba(0,0,0,0.5); 
-        text-transform: uppercase;
-        letter-spacing: 0.5em;
-        text-align: center;
+h1 {
+  font: 600 3em "Raleway", san-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  text-align: center;
+  padding: 100px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5), -1px 7px #444;
 }
-h2{
-        font: 900 1.5em 'Raleway', san-serif; /* thick, size, font */
-        color: rgba(0,0,0,0.5); 
-        text-transform: uppercase;
-        letter-spacing: 0.3em;
-        text-align: center;
+h2 {
+  font: 900 1.5em "Raleway", san-serif; /* thick, size, font */
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-align: center;
+  margin-top: 5%;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5), -1px 7px #444;
+}
+h3 {
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5), -1px 5px #444;
+}
+.color1,
+.color2 {
+  background-color: transparent;
+  border: none;
+  height: 50px;
+  width: 100px;
+  margin-top: -25%;
+  border-radius: 30px;
+}
+#button {
+  margin-top: 5%;
+  height: 30px;
+  width: 75px;
+  color: hsl(0, 5%, 48%);
+  border: none;
+  background-color: transparent;
+  box-shadow: 1px 1px 2px 2px transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+.color1:hover,
+.color2:hover {
+  transform: scale(1.25);
+  border: none;
+  cursor: pointer;
+}
+#button:hover {
+  box-shadow: 1px 2px 1px white;
+  opacity: inherit;
+  transform: scale(1.1);
+}
+.color1:focus,
+.color2:focus,
+#button:focus {
+  border: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }

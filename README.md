@@ -9,4 +9,4 @@
 
 One of examples of the application
 
-![Demo Image](./image/Capture.png)
+![Demo Image](Capture.png)

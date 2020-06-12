@@ -9,4 +9,5 @@
 
 One of examples of the application
 
-![Demo Image](Capture.png)
+![Demo](Capture.PNG)
+

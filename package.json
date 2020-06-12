@@ -1,0 +1,19 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "Gradient Generator",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnhMinhHoangLe/background-generator-gradient.git"
+  },
+  "author": "AL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnhMinhHoangLe/background-generator-gradient/issues"
+  },
+  "homepage": "https://github.com/AnhMinhHoangLe/background-generator-gradient#readme"
+}
